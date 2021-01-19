@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"/>
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css"/>
+    <link rel="stylesheet" href="css/choices.css"/>
+    <style>.choices__inner { display: inline-block; vertical-align: top; width: 100%; background-color: #f9f9f9; padding: 5px 7.5px 2px 7.5px; font-size: 14px; min-height: 30px; overflow: hidden; font-size: 1rem; font-weight: 400; line-height: 1.0; color: #4f4f4f; background-color: #fff; background-clip: padding-box; border: 1px solid #bdbdbd; -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: .25rem; -webkit-transition: all .2s linear; transition: all .2s linear; } .choices__list--dropdown .choices__item { padding: 7.5px 10px 7.5px 10px; } .choices__list--dropdown { font-weight: 400; color: #757575; } .choices__list--multiple .choices__item { font-size: 12px; height: 2.35rem; line-height: 2.35rem; border-radius: 0.25rem; padding: 0 0.75rem; background-color: #f3f4f6; border-color: #e5e7eb; color: #757575; font-weight: 500; letter-spacing: normal; font: "Roboto", sans-serif; text-transform: capitalize; } .choices[data-type *=select-multiple] .choices__button, .choices[data-type *=text] .choices__button { position: relative; display: inline-block; margin: 0 -4px 0 8px; padding-left: 16px; border-left: 1px solid #e5e7eb; height: 100%; color: #374151; background-image: url(image.svg); background-size: 8px; width: 8px; line-height: 1; opacity: .75; border-radius: 0; } .choices__list--multiple .choices__item.is-highlighted { background-color: #f3f4f6; border-color: #e5e7eb; } .p100 { padding-top: 100px; padding-bottom: 100px; } /* .bg-gray { background-color: #f2f2f2; } */.text-black-hint { color: rgba(0, 0, 0, .38)!important; } .formheadline { margin-bottom: 5px; font-size: 25px; text-align: center; font-weight: 700; } .formsubheadline { text-align: center; font-weight: 400; line-height: 24px; font-size: 17px; margin-top: 7px; margin-bottom: 26px; } .formbox { position: relative; max-width: 480px; width: 100%; padding: 24px; background: #fff!important; border-radius: 0.25rem; -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .05)!important; box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important; } .formcheck { font-size: 1rem; color: #4f4f4f; } .form-group2 { margin: 0px 0px 1rem; position: relative; color: #444; } .form-group2 label.question { margin-bottom: 10px; font-size: 16px; line-height: 24px; } .checkboxholder { max-width: 100%; margin-left: 15px; } .p50 { padding-bottom: 50px; } .topsection { flex-direction: column; display: flex; justify-content: center; background: #dfe7ec; flex-wrap: wrap; min-height: 75vh; } .pheader { margin-top: 50px; margin-bottom: 25px; } .fw300 { font-weight: 300; } .fw400 { font-weight: 400; } .fw500 { font-weight: 500; } .fw600 { font-weight: 600; } .fw700 { font-weight: 700; } .fw800 { font-weight: 800; } .fw900 { font-weight: 900; } .darkgray { color: #444; } .max-width-250 { width: 100%; } .mt25 { margin-top: 25px; } .mt50 { margin-top: 50px; } .fs-18px { font-size: 18px; } .fs-14px { font-size: 14px; } .backgroundimg { background-image: url(https://lite.demos.wpbeaverbuilder.com/wp-content/uploads/sites/28/2020/02/headway-F2KRf_QfCqw-unsplash-1920x1280-2.jpg); background-repeat: no-repeat; background-position: center center; background-attachment: scroll; background-size: cover; } .backgroundcentered { align-items: center; justify-content: center; -webkit-align-items: center; -webkit-box-align: center; display: flex; min-height: 100vh; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-align: center; -ms-flex-pack: center; position: relative; } @media (min-width:576px) { .max-width-250 {  width: auto; } } .text-darkgray { color: #2E2E2E; } .darkgray-bg { background-color: #2E2E2E; } .g-text { color: #545454!important; }</style>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+    <link rel="stylesheet" href="../blocks.css">
+  </head>
+  <body>
+    <section class=' backgroundcentered bg-light mvh-100 d-flex flex-column'>
+      <div class="py-5 mb-3 container-md my-md-0 py-md-6">
+        <!-- <div class="flex-wrap row d-flex justify-content-sm-center flex-sm-row">!-->
+        <div class='row mt-lg-5 justify-content-center align-content-top'>
+          <!-- End your project here-->
+          <div class="mt-3 mb-3 col-sm-12 col-xl-9">
+            <h3 class="mb-3 text-black text-uppercase mt-2">
+            Privacy Policy </h3>
+            <h3 class="mb-3 text-black text-uppercase mt-2">Introduction</h3>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>Thank you for visiting our websites: nationaljusticebureau.com (“Site","We","Us", or"Our"). We respect the privacy of our users (“you" or"your"). This Privacy Policy (“Privacy Policy") governs the site, we and our businesses, subsidiaries and related entities operate. This Privacy Policy sets out the privacy considerations for you on this site so please read this carefully. By using our Site, you are agreeing to the terms of this Privacy Policy and our Terms of Use. If you do not agree to these collective terms, then please do not use our Site.  </p>
+            <h3 class="mb-3 text-black text-uppercase mt-2">What Choices Do You Have?</h3>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>If you no longer wish to receive marketing communications from us, you can let us know by filling out <a href="optout.html" class="complybas">this form </a> or by mail at the address provided below.</p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>The electronic marketing communications we send will also contain an opt-out mechanism pursuant to legal requirements. Please note that it may take up to 10 calendar days to remove your contact information from our marketing communications lists, so you may receive correspondence from us for a short time after you make your request. Please also contact us to update or correct your information if it changes or if you believe that any information that we have collected about you is inaccurate.</p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>Please note that the Sites are compliant with the Telephone Consumer Protection Act. When you click a submit button or other similar button that transmits the information you enter on one of Our web forms on the Sites, you expressly agree to the terms of the opt-ins and disclaimers on the relevant Site page.  </p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>
+        Please pay careful attention to these terms when submitting your information. You are also agreeing to this Privacy Policy and our Terms of Use. As a result, you may be contacted by Us, our affiliates, subsidiaries, partners, clients and other businesses and groups. You may be contacted by telephone or the use of electronic technologies such as SMS text messages, email, auto dialers, pre-recorded messages even if the telephone number that you submitted on the Site is a mobile number or a number listed on any state, federal or corporate"Do Not Call" list. You also understand that your telephone company may impose charges on you for these contacts and that you can revoke your consent at any time. For any active SMS messages that you may be contacted from, you can Text STOP to cancel or HELP for help. Message and date rates may apply. By clicking a submit button on our Sites, you affirm that you have read and agreed to the Site’s Terms of Use and Privacy Policy.</p>
+            <h3 class="mb-3 text-black text-uppercase mt-2">Information We Collection</h3>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>We  collect  information  that  identifies,  relates  to,  describes,  references,  is  capable  of  being  associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or device (“personal information" or"PI"). In particular, we have processed the following categories of personal information from consumers within the last twelve (12) months:</p>
+            <table class="table-bordered table-responsive table-responsive-sm">
+              <thead>
+                <tr>
+                  <th><strong>Category</strong></th>
+                  <th><strong>Example(s)</strong></th>
+                  <th><strong>Source(s)</strong></th>
+                  <th><strong>Purposes of Collection</strong></th> 
+                  <th><strong>Who Do We Share Your PI with?</strong></th>
+                </tr>
+              </thead>
+              <tbody> 
+                <tr> 
+                  <td><strong>Identifiers</strong></td>
+                  <td>First Name, Last Name, Alias, Age, Sex, Employment, Name, information as to preferences or consumer behavior, financial information or  medical information. </td>
+                  <td class='p-1'>Directly from you during your interaction on our web or mobile application or data brokers or service  providers.</td>
+                  <td class='p-1'>To respond to your inquiry, to provide you with more targeted services or to conduct data auditing. Personalization and improvement of sites, internal database, site analysis, customer service, legal and compliance. Minimize duplication of contact.</td>
+                  <td class='p-1'>Businesses, clients, service providers or third parties</td>
+                </tr>
+                <tr> 
+                  <td class='p-1'><strong>Customer records</strong></td>
+                  <td class='p-1'>Personal property, products/services purchased or used, purchasing histories/tendencies, medical services used and locations, usage of products and services.</td>
+                  <td class='p-1'>Directly from you during your interaction on our web or mobile application or data brokers or service  providers</td>
+                  <td class='p-1'>To respond to your inquiry, to provide you with more targeted services or to conduct data auditing. Personalization and improvement of sites, internal database, site analysis, customer service, legal and compliance. Minimize duplication of contact.</td>
+                  <td class='p-1'>Businesses, clients, service providers or third parties </td>
+                </tr>
+                <tr> 
+                  <td class='p-1'><strong>Commercial Information</strong></td>
+                  <td class='p-1'>Personal property, products/services purchased or used, purchasing histories/tendencies, medical services used and locations, usage of products and services.</td>
+                  <td class='p-1'>Directly from you during your interaction on our web or mobile application or data brokers or service  providers.</td>
+                  <td class='p-1'>To respond to your inquiry, to provide you with more targeted services</td>
+                  <td class='p-1'>Businesses, clients, service providers or third parties</td>
+                </tr>
+                <tr> 
+                  <td class='p-1'><strong>Internet/ Network Activity</strong></td>
+                  <td class='p-1'>Browsing history, Internet or other electronic network activity, search history, information regarding a consumer’s interaction with an internet website, application, content or advertisement. In particular, time and date of your visit to the Site, Which site you came from, What other pages you have visited, Domain Name Servers, Devices used, browsers used, Time Spent, behavioral and activity data. </td>
+                  <td class='p-1'>Directly from your device during your interaction on our web or mobile application or data brokers or service  providers</td>
+                  <td class='p-1'>To better provide you with appropriate and applicable service offers, fulfillment of requests submitted on Site, internal database, site analysis, site security, data analysis, customer service and legal and compliance. </td>
+                  <td class='p-1'>Service providers or third parties</td>
+                </tr>
+                <tr> 
+                  <td class='p-1'><strong>Geolocation Data</strong></td>
+                  <td class='p-1'>Physical location, geographic region based on Internet Protocol Address, area codes, zip codes associated with your web servers and other similar types of information. </td>
+                  <td class='p-1'>Directly from your device during your interaction on our web or mobile application.</td>
+                  <td class='p-1'>To better provide you with appropriate and applicable service offers, personalization and site improvement, internal databases, site security, customer services and legal and compliance. </td>
+                  <td class='p-1'>Service providers or third parties</td>
+                </tr>
+                <tr> 
+                  <td class='p-1'><strong>Audio, electronic, visual, etc. information</strong></td>
+                  <td class='p-1'>Video recordings of your interaction on our website or mobile application</td>
+                  <td class='p-1'>Directly from your digital interaction on our web or mobile applications</td>
+                  <td class='p-1'>Legal and Compliance,  quality control purposes and site security. </td>
+                  <td class='p-1'>Service providers, third parties, clients and businesses.</td>
+                </tr>
+                <tr> 
+                  <td class='p-1'><strong>Professional/Employment Information</strong></td>
+                  <td class='p-1'>Job title or Profession or other similar information relating to your job or profession. </td>
+                  <td class='p-1'>Directly from you on our web or mobile application or  data broker or service providers </td>
+                  <td class='p-1'>To respond to your inquiry and to ensure relevance of the offer</td>
+                  <td class='p-1'>Service providers, third parties, clients and businesses.</td>
+                </tr>
+                <tr> 
+                  <td class='p-1'><strong>Inferences</strong></td>
+                  <td class='p-1'>Consumer activity history, purchases, uses regarding products and services</td>
+                  <td class='p-1'>Directly from you or data brokers or service providers </td>
+                  <td class='p-1'>To better provide you with appropriate and applicable service offers, internal databases, site analysis and improving customer experience. </td>
+                  <td class='p-1'>Service providers, third parties, clients and businesses.</td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <h3 class="mb-3 text-black text-uppercase mt-2">Information  Collected  Automatically. </h3>
+            <p class='mb-3 text-dark lh-base font-weight-normal '> We  and  our  third  party  providers  may  use  cookies  and  other technologies such as log files, tracking pixels, SDKs, and analytic tools and services to collect information (including  Personal  Information)  automatically  from  you.  Such  information  includes  your  IP  address, location  information,  the  type  of  the  web  browser  and  operating  system  you  use,  browsing  activities, usage  information,  and  any  other  information  that  your  web  browsing  software  or  Internet  Service Provider automatically provides to our Services. Cookies. A cookie is a small piece of data stored by your web  browser  on  your  computer  or  mobile  device.  We  use  cookies  to  collect  information  from  you regarding your usage of the Services in order to remember user preferences and settings, personalize your experience with the Services, and for security purposes. You may opt-out of the automatic collection of some  information  by  referring  to  your  web  browser’s  or  mobile  device’s  options  or  settings  menu. However,  doing  so  may  disable  many  of  the  portions,  features,  or  functionality  of  the  Services.  Each browser  is  different,  so  check  the "Help"  menu  of  your  browser  to  learn  how  to  change  your  cookie preferences or visit <a href="http://www.allaboutcookies.org" target="_blank">http://www.allaboutcookies.org</a> for more information.</p>
+            <h3 class="mb-3 text-black text-uppercase mt-2">California Privacy </h3>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>We adopt this notice to comply with the California Consumer Privacy Act of 2018 (“CCPA"). The following applies solely to California"consumers" as defined in Section 17014 of Title 18 of the California Code of Regulations. This notice applies to the personal information categories listed above.</p> 
+            <p class='mb-3 text-dark lh-base font-weight-normal '>Please note that job applicants, current and former employees, and individuals subject to business-to-business communications are not considered"consumers" for the purpose of this policy.</p>
+            <h3 class="mb-3 text-black text-uppercase mt-2">Summary of Your Rights Under California </h3> 
+            <p class='mb-3 text-dark lh-base font-weight-normal '>Under California law, subject to certain exceptions, California residents have the following rights with respect to their Personal Information: </p> 
+            <table class="lh-base table table-bordered table-responsive tg">
+              <table class="table-bordered table-responsive table-responsive-sm">
+                <thead>
+                  <tr>
+                    <th><strong>Privacy Right</strong></th>
+                    <th><strong>Description</strong></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class='p-1'>Notice</td>
+                    <td class='p-1'>You have the right to be notified of what categories of Personal Information will be collected at or before the point of collection and the purposes for which they will be used and shared.</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Access</td>
+                    <td class='p-1'>You have the right to request information on the categories of Personal Information that we collected in the previous twelve (12) months, the categories of sources from which the Personal Information was collected, the specific pieces of Personal Information we have collected about you, and the business purposes for which such Personal Information is collected and shared. You also have the right to request information on the categories of Personal Information which were disclosed for business purposes, and the categories of third parties in the twelve (12) months preceding your request for your Personal Information.</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Erasure</td>
+                    <td>You have the right to request to have your Personal Information deleted from our servers and we will direct our service providers to do the same. However, please be aware that we may not fulfill your request for deletion if we (or our service provider(s)) are required to retain your Personal Information for one or more of the following categories of purposes: (1) to complete a transaction for which the Personal Information was collected, provide a good or service requested by you, or complete a contract between us and you; (2) to ensure our website integrity, security, and functionality; (3) to comply with applicable law or a legal obligation, or exercise rights under the law; (4) to otherwise use your Personal Information, internally, in a lawful manner that is compatible with the context in which you provided the information.</td>
+                  </tr>
+                </tbody>
+              </table>               
+              <h3 class="mb-3 text-black text-uppercase mt-2">Disclosure of Personal Information</h3> 
+              <p class='mb-3 text-dark lh-base font-weight-normal '> In the preceding twelve (12) months, we may have disclosed the following categories of personal information for a business purpose:</p> 
+              <table class="table-bordered table-responsive table-responsive-sm">
+                <thead>
+                  <tr>
+                    <th><strong>Categories of Personal Information</strong></th>
+                    <th><strong>Business Purpose</strong></th>
+                    <th><strong>Categories of Third Parties (as defined by CCPA) with whom information is shared for a Business Purpose</strong></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class='p-1'>Identifiers</td>
+                    <td class='p-1'>Auditing, Detecting Security Incidents, Performing Services, Undertaking Internal Research</td>
+                    <td class='p-1'>Not Disclosed</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Customer records</td>
+                    <td class='p-1'>To respond to your inquiry, to provide you with more targeted services or to conduct data auditing</td>
+                    <td class='p-1'>Not Disclosed</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Commercial Information</td>
+                    <td class='p-1'>To respond to your inquiry, to provide you with more targeted services</td>
+                    <td class='p-1'>Not Disclosed</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Internet/ Network Activity</td>
+                    <td class='p-1'>To better provide you with appropriate and applicable service offers</td>
+                    <td class='p-1'>Not Disclosed</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Geolocation Data</td>
+                    <td class='p-1'>To better provide you with appropriate and applicable service offers</td>
+                    <td class='p-1'>Not Disclosed</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Audio, electronic, visual, etc. information</td>
+                    <td class='p-1'>Compliance and quality control purposes</td>
+                    <td class='p-1'>Not Disclosed</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Professional/Employment Information</td>
+                    <td class='p-1'>To respond to your inquiry and to ensure relevance of the offer</td>
+                    <td class='p-1'>Not Disclosed</td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Inferences</td>
+                    <td class='p-1'>To better provide you with appropriate and applicable service offers</td>
+                    <td class='p-1'>Not Disclosed</td>
+                  </tr>
+                </tbody>
+              </table>               
+              <h3 class="mb-3 text-black text-uppercase mt-2">Sales of Personal Information</h3> 
+              <p class='mb-3 text-dark lh-base font-weight-normal '>In the preceding (12) twelve months we have sold the following categories of personal information to third parties: </p> 
+              <table class="table-bordered table-responsive table-responsive-sm">
+                <thead>
+                  <tr>
+                    <th><strong>Categories of Personal Information</strong></th>
+                    <th><strong>Categories of Third Parties with whom information is sold (for the purposes of CCPA)</strong></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class='p-1'>Identifiers</td>
+                    <td class='p-1'>Businesses and Clients such as direct lead buyers, brands, advertisers and marketers. </td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Customer records</td>
+                    <td class='p-1'>Businesses and Clients such as direct lead buyers, brands, advertisers and marketers. </td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Commercial Information</td>
+                    <td class='p-1'>Businesses and Clients such as direct lead buyers, brands, advertisers and marketers. </td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Internet/ Network Activity</td>
+                    <td class='p-1'>Businesses and Clients such as direct lead buyers, brands, advertisers and marketers. </td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Geolocation Data</td>
+                    <td class='p-1'>Businesses and Clients such as direct lead buyers, brands, advertisers and marketers. </td>
+                  </tr>                   
+                  <tr>
+                    <td class='p-1'>Audio, electronic, visual, etc. information</td>
+                    <td class='p-1'>Businesses and Clients such as direct lead buyers, brands, advertisers and marketers. </td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Professional/Employment Information</td>
+                    <td class='p-1'>Businesses and Clients such as direct lead buyers, brands, advertisers and marketers. </td>
+                  </tr>
+                  <tr>
+                    <td class='p-1'>Inferences</td>
+                    <td class='p-1'>Businesses and Clients such as direct lead buyers, brands, advertisers and marketers. </td>
+                  </tr>                   
+                </tbody>
+              </table>               
+              <p class='mb-3 text-dark lh-base font-weight-normal '>We aim to provide consumers with control over the collection and use of their personal information. Consistent with this goal, we will honor requests from consumers to"opt-out" of the sale of their personal information. The "Your California Privacy Rights" section below provides instructions on how to opt-out of the sale of your personal information.</p> 
+              <p class='mb-3 text-dark lh-base font-weight-normal '>Please note that We do not knowingly sell personal information of California consumers under the age of sixteen (16) years.</p> 
+              <h3 class="mb-3 text-black text-uppercase mt-2">Your California Privacy Rights</h3> 
+              <p class='mb-3 text-dark lh-base font-weight-normal '>As set out above, under the CCPA, California consumers are provided with certain privacy rights
+         which they may exercise themselves or through an authorized agent. </p>
+              <p class='mb-3 text-dark lh-base font-weight-normal '><strong>The Right to Opt-Out of the Sale of Personal Information: </strong>You have the right to 
+				request that we discontinue the sale of your personal information that we have collected about you. 
+				Once you submit this request, we will not request authorization from you to begin selling your data 
+				again in the future for twelve (12) months. </p>
+              <p class='mb-3 text-dark lh-base font-weight-normal '>You may utilize the options below in the <b>&quot;Exercising Your 
+				California Privacy Rights&quot;</b> section or by visiting our <b>&quot;Do Not Sell My Personal Information&quot;</b> webpage  <a href="optout.html" class="complyccpa"> Here</a></p> 
+              <p class='mb-3 text-dark lh-base font-weight-normal '><strong>The Right to Know: </strong>You have the right to request that we disclose to you the personal 
+				information we have collected, used, disclosed or sold about you in the previous twelve (12) months. You may 
+				also request a copy of the personal information we have collected on you over the past twelve (12) months. See 
+				the "Exercising Your California Privacy Rights" section for instructions on submitting a right to know request.</p> 
+              <p class='mb-3 text-dark lh-base font-weight-normal '><strong>The Right to Deletion:</strong> You have the right to request that we delete any of your personal 
+				information that we collected from you and retained, subject to certain exceptions. Once we receive and confirm
+				 your verifiable request, we will delete and direct our service providers to delete your personal information
+				  from our records, unless an exception applies. See the "Exercising Your California Privacy Rights" section 
+				  for instructions on submitting a right to deletion request. </p> 
+              <h3 class="mb-3 text-black text-uppercase mt-2">Exercising Your California Privacy Rights</h3> 
+              <p class='mb-3 text-dark lh-base font-weight-normal '>To exercise the rights described above, please submit a verifiable consumer request to us by either calling the number below or submitting a request online through the link below. We may require you to provide certain personal information to allow us to verify your identity, such as your email address, full name, postal address, date of birth and phone number, etc and any other reasonable information we require to process your request. If we cannot comply with a request, we will explain the reasons in our response.</p> 
+              <h3 class="mb-3 text-black text-uppercase mt-2">Help Us Verify Your Identity:</h3> 
+              Provide us with information to verify your identify. Please note that if we cannot initially verify your identity, we may request additional information to complete the verification process. Any Personal Information you disclose to us for purposes of verifying your identity will solely be used for the purpose of verification.  
+            </p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '><strong><a href="optout.html" class="complyccpa">Submit Your Details Here</a></strong></p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '><strong>Shine the Light: </strong>&nbsp; California residents may request the categories of personal information that we shared with third parties for the third parties&rsquo; direct marketing purposes during the previous calendar year, if any. </p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '> Written requests may be sent to the following address: {{ADDRESS}}</p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>You must write "Your California Privacy Rights" at the top of your inquiry.  Once we have all the necessary information from you, we will respond within 30 days to requests regarding the categories of personal information that we shared with third parties for their own direct marketing purposes within the previous calendar year.  Requests for this information that come to National Justice Bureau by other means may result in a delayed response.</p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '><strong>Use of an Authorized Agent:</strong>&nbsp; You may designate, in writing or through a power of attorney, an authorized agent to make these privacy requests on your behalf to exercise these rights. An authorized agent may submit a request on your behalf if you have provided the authorized agent with power of attorney in accordance with California law. If this has not occurred, we will require the agent to provide proof that you have authorized it to act on your behalf and may require you to verify your own identity with us directly before we accept a request. We will do this by requiring the authorized agent to present verifiable written authorization from you that you have provided the agent with permission to submit the request and independently verify the agent’s own identity with Consumer Attention, Consumer Guardian or Right to Fight.  </p> 
+            <p class='mb-3 text-dark lh-base font-weight-normal '><strong>Non-Discrimination:</strong>&nbsp; We will not discriminate against you for exercising any of your CCPA rights. Unless permitted by the CCPA, we will not:</p>
+            <ul>
+              <li>Deny you goods or services;</li>
+              <li>Charge you different prices or rates for goods or services, including granting discounts or other benefits, or imposing penalties;</li>
+              <li>Provide you a different level or quality of goods and services; or</li>
+              <li>Suggest that you may receive a different price or rate for goods or services or a different level or quality of goods or services.</li>
+            </ul>
+            <h3 class="mb-3 text-black text-uppercase mt-2">Nevada Privacy Disclaimer</h3>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>The following applies solely to Nevada residents. We adopt this notice to comply with the Nevada Privacy Law. As a Nevada resident, you have the right to review and request changes to any of your covered information that is collected through our website or online services. If you are a Nevada"consumer" as defined by the Nevada Privacy Law, you may also request to opt out of the sale of such information about you.  </p>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>See the"Exercising Your Nevada Privacy Rights" section below for instructions on how to exercise your rights described above. </p>
+            <h3 class="mb-3 text-black text-uppercase mt-2">Exercising Your Nevada Rights</h3>
+            <p class='mb-3 text-dark lh-base font-weight-normal '>To exercise your rights described above, please submit a verifiable request to us by either calling the number below or submitting a request online through the link below. </p>
+            <a href="optout.html" class="complynev">Submit Your Details Here</a>
+          </strong>
+        </p>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>Once we have all the information we need, we will process your request within 60 days, or we will let you know if we need additional time. </p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">How We Respond to Do Not Traack</h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>We do not suppor<b>t&quot;Do Not Track&quot;</b> browser settings and therefore does not change its practices in response to a&quot;Do Not Track&quot; signal in the HTTP header from a browser or mobile application.</p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">Opting Out </h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>Should you no longer wish to receive newsletter and promotional communications, you may opt-out of receiving them by following the instructions included in each newsletter or communication or by emailing us at the address listed at the end of this Privacy Policy or by following <a href="optout.html" class="complybas">this link</a>. You may continue to receive email communications from us up to ten business days from the time we receive your unsubscribe request. </p>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>Please note that National Justice Bureau can only control its own mailing list and policies. Third party advertisers that maintain their own mailing lists may send communications that advertise our services, and you may need to contact these parties directly in order to stop receiving their communications.</p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">Personal Information from Children</h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>Because of the nature of our business, our services are not provided to minors. We will not ask minors, specifically children under the age of 13, to provide personal information.</p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">Security of Personal Information</h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>We maintain our systems in accordance with commercially reasonable industry standards to preserve the integrity and security of your personally identifiable information under our control. No security system is impenetrable. We cannot, however, guarantee, ensure or warrant the security of any information you transmit to us and you do so at your own risk. Moreover, we are not responsible for the security of information you transmit to us over networks that we do not control, including the Internet and wireless networks. Please note that this is not a guarantee that such information may not be accessed, disclosed, altered, or destroyed by breach of any of our physical, technical, or managerial safeguards.</p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">Links to Other Sites</h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>nationaljusticebureau.com may include links or references to other websites or services. These linked sites are provided for your convenience and for information purposes only. This Privacy Policy does not apply to third party websites or social media features that may be accessed through links that we provide for your convenience and information. Accessing those links will cause you to leave our site and may result in the collection of your personal information by third parties. We do not control, endorse or make any representations about those third party websites or their privacy practices, which may differ from ours. We encourage you to review the privacy policy of any site you interact with before allowing the collection and use of your information. National Justice Bureau  are not responsible for the privacy practices of such sites. This Privacy Policy applies solely to information collected via  nationaljusticebureau.com</p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">Using Our Services </h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>If you are using the Services from outside of the United States of America, please be aware that your Personal Information may be transferred to, stored or processed in the United States, where our servers are located, and our central database is operated. The data protection and other laws of the United States might not be as comprehensive as those in your country. By using any portion of the Services, you understand and consent to the transfer of your Personal Information to our facilities in the United States and those third parties with whom we share it as described in this Privacy Policy.</p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">Online Analytics</h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>We may use third party analytics tools, such as Google Analytics and other services from time to time, in order to better understand your use of our Services and how we can improve them. These tools collect information sent by your browser or mobile device, including the pages you visit and other usage information. For more information regarding how Google collects, uses, and shares your information please visit <a href="http://www.google.com/policies/privacy/partners/" target="_blank">http://www.google.com/policies/privacy/partners/</a>. </p>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>To prevent data from being used by Google Analytics, you can download the opt-out browser add-on at: <a href="http://tools.google.com/dlpage/gaoptout?hl=en" target="_blank">http://tools.google.com/dlpage/gaoptout?hl=en</a>. </p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">Changes to Our Privacy Policy</h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>This Privacy Policy may be updated periodically, and we encourage visitors to frequently check this page for any changes. You can tell when this policy was last updated by looking at the"Last Update:" date located at the top of this policy. In the event of substantive changes in the way we collect, process, use or share personal information, we may provide additional notice by adding a statement to our homepage or sending you a notification via email with a link to our revised policy.</p> 
+        <p class='mb-3 text-dark lh-base font-weight-normal '>Your further use of our website after the date our Privacy Policy was last updated will be subject to the revised policy.</p>
+        <h3 class="mb-3 text-black text-uppercase mt-2">Questions?</h3>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>If you have questions regarding our Privacy Policy or your privacy rights as described above, please contact us at: Info@yourrights.legal </p>
+        <p class='mb-3 text-dark lh-base font-weight-normal '>{{COMPANY}} | {{ADDRESS}}</p>
+      </div>
+    </section>
+    <footer class="pt-0 page-footer footer-copyright bg-light center-on-small-only g-text">
+      <div class="container px-lg-5">
+        <div class="pt-5 mb-2 text-center row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-md-2">
+            <h6 class="g-text font-weight-light small"><a class='g-text' href='aboutus.html'>About Us</a></h6>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="mb-2 col-md-2 ">
+            <h6 class="title font-weight-light small"><a class='g-text' href="privacy.html">Privacy Policy</a></h6>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="mb-2 col-md-2">
+            <h6 class="title font-weight-light small gray-text"><a class='g-text' href="terms.html">Terms of Use</a></h6>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="mb-2 col-md-2">
+            <h6 class="title font-weight-light small"><a class='g-text' href="ccpa.html">Do Not Sell My Info</a></h6>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="mb-2 col-md-2">
+            <h6 class="title font-weight-light small"><a class='g-text' href="contactus">Contact Us</a></h6>
+          </div>
+          <div class="mt-3 mb-3 text-center text-white col-12">
+            <p class='small font-weight-light g-text'>
+            {{COMPANY}}© 2020 </p>
+          </div>
+          <!--Grid column-->
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
